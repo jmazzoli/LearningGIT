@@ -13,12 +13,30 @@
         <li>git branch <i>nombre</i></li>
         <li>git ckeckout <i>branch name</i></li>
         <li>git merge <i>branch, posicionado en el master</i></li>
+        <li>git branch <i>sin parámetro, lista las ramas</i></li>
+        <li>git branch -a <i>lista también las ramas ocultas</i></li>
     </ul>
     <h2>GitHub</h2>
     <ul>
         <li>git remote add origin <i>url</i></li>
         <li>git remote -v</li>
-        <li>git push <i>branch</i></li>
+        <li>git push origin <i>branch</i></li>
         <li>issues, milestones, labels</li>
+    </ul>
+    <h2>Tags</h2>
+    <ul>
+        <li>git commit --amend -m "<i>nuevo mensaje en el commit</i>"</li>
+        <li>git push origin <i>branch</i> -f <i>fuerza el commit cuando no hubo cambio en el código</i></li>
+        <li>git tag -a v1.0 -m <i>mensaje</i> <i>hash de un commit específico</i></li>
+        <li>git push origin v1.0</li>
+        <li>git push origin --tags</li>
+    </ul>
+    <h2>Workflow en equipo</h2>
+    <ul>
+        <li>GitHub: Create Organization</li>
+        <li>GitHub: Transfer repository a la organización</li>
+        <li>git fetch origin</li>
+        <li>git merge origin/master</li>
+        <li>git push origin master</li>
     </ul>
 </html>
